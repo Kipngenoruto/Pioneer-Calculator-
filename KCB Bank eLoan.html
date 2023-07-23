@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8"/>
+     <meta name="loan application form"/>
+     <meta name="viewport"content="width=device-width, initial-scale=1"/>
+     <title>KCB LOAN APPLICATION FORM</title>
+     <link href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"rel="stylesheet" />
+     <style type="text/css">
+*{
+box-sizing:border-box;
+  }
+body {
+ background:lightgreen ;
+      }
+h1{
+ background:green;
+ color:white;
+ text-align:center;
+   }
+h2 {
+ color:black;
+ font-family:Times New Roman;
+ text-align:center;
+   }
+.img1 {
+  width:100%;
+  height:60px;
+    }
+ .nav-bar a {
+         text-decoration: none;
+         color: black;
+         display: block;
+         background:lightblue;
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         padding: 10px;
+         background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar li {
+         float: left;
+         width: 25%; /* 100% / 4 (number of li elements) = 25% */
+         text-align: center;
+         border-right: 1px solid #333; /* for the borders */
+      }
+      .nav-bar li:last-child {
+         border: none;
+      }
+   select {
+         outline: none;
+         border: 1px solid green;
+         border-radius:10px;
+         background: lightgreen;
+         color: white;
+         padding: 10px;
+      }
+   input {
+         outline: none;
+         padding: 10px;
+         border: 2px solid lightgreen;
+         border-radius: 10px;
+         width:80%;
+      }
+  * {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         display: flex;
+         min-height: 100vh;
+         flex-direction: column;
+      }
+      main {
+         flex: 1 0 auto;
+      }
+      footer {
+         color: #fff;
+         background: #333;
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 80%;
+      }
+      .footer-copyright {
+         width: 100%;
+         height: 40px;
+         background: #111;
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+         font-variant:small-caps
+      }
+      .footer-body {
+         margin-bottom: 40px;
+         padding: 30px;
+      }
+      .footer-body > div:first-child {
+         font-size: 150%;
+      }
+      .footer-body ul {
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+      }
+      .footer-body li > a {
+         color: white;
+         text-decoration: none;
+         margin-bottom: 7px;
+      }
+ </style
+  </head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">T&C</a></li>
+        <li><a href="#">Policy</a></li>
+      </ul>
+    </nav>
+  </header>
+   <body>
+ <img class="img1" src="Images/kcb1.jpg"/>
+   <i class="fa fa-twitter"></i>
+   <i class="fa fa-facebook"></i>
+   <i class="fa fa-whatsapp"></i>
+   <i class="fa fa-pinterest"></i>
+  <h1>KENYA COMMERCIAL BANK(KCB) eLOAN APPLICATION FORM.</h1>
+   <main>
+    <h2>PERSONAL DETAILS.</h2>
+     <form action="sample-page-handler.html"method="POST">
+       <input type="text"name="surname"placeholder="*Surname"autocapitalize="words"required/>
+           </br>
+           </br>
+        <input type="text"name="Firstname"placeholder="*First Name"autocapitalize="words"required/>
+           </br>
+           </br>
+        <input type="number"name="Account number"placeholder="*Account Number"required/>
+           </br>
+           </br>
+          <select id="acctype">
+            <option ="#">Personal Current Account</option>
+            <option ="#">Student Account</option>
+          </select>
+             </br>
+             </br>
+        <input type="text"name="KRA Pin"placeholder="*KRA Pin" required/>
+             </br>
+         
+        <input type="submit">   
+    </form>
+   <video src="VICTOR/kcb.mp4"width="100%"height="200px"controls></video>
+  <h2>LENDING POLICY:</h2>
+<p>*Legible for the loan if  not listed to Credit Reference Bureau (CRB).</p>
+<p>*Ensure entry of valid Credentials before form submission for appropriate verification.</p>
+<p>*We don't accept solid collateral (check more info on our Terms and Conditions).</p>
+       <h2>LOAN APPLICATION DETAILS:</h2>
+    <form action="sample-page-handler.html"target="blank"method="GET">
+       <p>Name:</p>
+      <input type="text"name="Applicant Name"placeholder="*Applicant's Full Name"autocapitalize="words"required/>
+          </br>
+          
+       <p>ID Number:</p>
+      <input type="text"name="ID Number"placeholder="*ID Number"required/>
+          </br>
+          
+       <p>Date Of Birth (Year-Month-Day):</p>
+      <input type="date"name="D.O.B"placeholder="*Year-Month-Day"min="1963-01-01"required/>
+          </br>
+         
+      <p>Account Number:</p>
+     <input type="number"name="AccNo"placeholder="*Acc Number"required/>
+          </br>
+          
+      <p>Email Address (Optional):</p>
+     <input type="email"name="email"placeholder="*User Email"/>
+          </br>
+      <p>Loan Amount:</p>
+    <select id="amount">
+       <option value="5,000">Ksh.5,000/=</option>
+       <option value="10,000">Ksh.10,000/=</option>
+       <option value="15,000">Ksh.15,000/=</option>
+       <option value="20,000">Ksh.20,000/=</option>
+       <option value="25,000">Ksh.25,000/=</option>
+       <option value="30,000">Ksh.30,000/=</option>
+    </select>
+       </br>
+      <p>Loan Purpose:</p>
+     <select id="purpose">
+        <option value="Education">Education</option>
+        <option value="Business">Business</option>
+        <option value="Medical bills">Medical bills</option>
+        <option value="other">Other</option>
+     </select>
+           </br>
+
+     <p>Telephone Number(primary):</p>
+   <input type="tel"name="primarytel"placeholder="*Tel" minlenghth="10"maxlength="10"required/>
+       </br>
+     <p>Telephone Number(secondary):</p>
+   <input type="tel"name="secondarytel"placeholder="*Tel"minlength="10"maxlength="10"required/>
+       </br>
+     <p>TopUp loan/Refinance:(optional)</p>
+   <input type="number"name="refinance"placeholder="Topup/Refinance"min="1000"max="30,000"/>
+    <input type="submit"/>
+  </form>
+   <h3>Declarations.</h3>
+  <p>Incase of Topup/Refinance Loan,applicant should specify the amount to be cleared.</p>
+  <p>*After submitting your Personal details and Loan application details,we shall verify your details and disburse the loan to your respective Bank account within 1 hour of(Working hours).</p>
+
+   </main>
+  </body>
+<footer>
+   <div class="footer-body">
+    <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Terms and Conditions</a></li>
+       <li><a href="#">Privacy and Policy</a></li>
+    </ul>
+  </div>
+ <div class="footer-copyright">
+    ©COPYRIGHT 2023//KCB GROUP ORG.ALL RIGHT RESERVED.
+    </div>
+   </footer>
+  </html>
+       
+      
+      
+  
+   
