@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8"/>
+     <meta name="loan application form"/>
+     <meta name="viewport"content="width=device-width, initial-scale=1"/>
+     <title>KCB LOAN APPLICATION FORM</title>
+     <link href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"rel="stylesheet" />
+     <style type="text/css">
+*{
+box-sizing:border-box;
+ width: 100%;
+
+  }
+body {
+    background: linear-gradient(to bottom left, #009999 0%, #33cc33 100%);
+ width: 100%;
+ color: #f8f9f9;
+      }
+      
+h1{
+    width: 90%;
+ background:green;
+ color:white;
+ text-align:center;
+   }
+h2 {
+    width: 90%;
+ color:black;
+ font-family:Times New Roman;
+ text-align:center;
+   }
+.img1 {
+  width:100%;
+  height:60px;
+    }
+ .nav-bar a {
+    width: 90%;
+         text-decoration: none;
+         color: black;
+         display: block;
+         background:lightblue;
+      }
+      .nav-bar > ul {
+          width: 90%;
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+          width: 90%;
+         padding: 10px;
+         background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover {
+          width: 90%;
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+          width: 90%;
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar li {
+          width: 90%;
+         float: left;
+         width: 25%; /* 100% / 4 (number of li elements) = 25% */
+         text-align: center;
+         border-right: 1px solid #333; /* for the borders */
+      }
+      .nav-bar li:last-child {
+         border: none;
+      }
+   select {
+       width: 90%;
+         outline: none;
+         border: 1px solid green;
+         border-radius:10px;
+         background: lightgreen;
+         color: white;
+         padding: 10px;
+      }
+   input {
+       width: 90%;
+         outline: none;
+         padding: 10px;
+         border: 2px solid lightgreen;
+         border-radius: 10px;
+         width:80%;
+      }
+body {
+
+         margin: 0;
+         padding: 0;
+      }
+      body {
+         display: flex;
+         min-height: 100vh;
+         flex-direction: column;
+      }
+      main {
+          width: 90%;
+         flex: 1 0 auto;
+      }
+      footer {
+          width: 100%;
+         color: #fff;
+          background: linear-gradient(to bottom left, #009999 0%, #33cc33 100%);
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 80%;
+      }
+      .footer-copyright {
+          width: 90%;
+         height: 30px;
+         background: #111;
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+         font-variant:small-caps
+      }
+      .footer-body {
+         margin-bottom: 40px;
+          width: 90%;
+         padding: 30px;
+      }
+      .footer-body > div:first-child {
+         font-size:90%;
+          width: 80%;
+      }
+      .footer-body ul {
+          width: 80%;
+         list-style-type: none;
+         justify-content: center;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+      }
+      .footer-body li  a {
+          width: 80%;
+         color: white;
+         text-decoration: none;
+         margin-bottom: 7px;
+           justify-content: center;
+      }
+      span{
+         display:flex;
+  
+         align-items: center;
+         font-size: 20px;
+    justify-content: center;
+         text-align: center;
+       
+      }#my{
+         width: 30px;
+         border-radius: 100%;
+      }
+      #yy{
+         width: 30px;
+         border-radius: 100%;
+         margin-right: 160px;
+      }
+      #pp{
+         width: 30px;
+         border-radius: 100%;
+            margin-left: -160px;
+      }
+      #kk{
+         width: 30px;
+         border-radius: 100%;
+            margin-right: 180px;
+      }
+      #my:hover{
+         background-color: rgb(16, 130, 169);
+      }
+      #yy:hover{
+          background-color: rgb(10, 88, 147);
+      }
+      #pp:hover{
+background: rgb(54, 203, 54);
+      }
+      #kk:hover{
+         background: rgb(158, 44, 97);
+      }
+    
+ </style>
+  </head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <ul>
+          <img class="img1" src="https://ke.kcbgroup.com/templates/corporate/images/logo.svg">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">T&C</a></li>
+        <li><a href="#">Policy</a></li>
+      </ul>
+    </nav>
+  </header>
+   <body>
+
+
+  <h1>KENYA COMMERCIAL BANK(KCB) eLOAN APPLICATION FORM.</h1>
+   <main>
+    <h2>PERSONAL DETAILS.</h2>
+     <form action="sample-page-handler.html"method="POST">
+       <input type="text"name="surname"placeholder="*Surname"autocapitalize="words"required/>
+           </br>
+           </br>
+        <input type="text"name="Firstname"placeholder="*First Name"autocapitalize="words"required/>
+           </br>
+           </br>
+        <input type="number"name="Account number"placeholder="*Account Number"required/>
+           </br>
+           </br>
+          <select id="acctype">
+            <option>Personal Current Account</option>
+            <option>Student Account</option>
+          </select>
+             </br>
+             </br>
+        <input type="text"name="KRA Pin"placeholder="*KRA Pin" required/>
+             </br>
+         
+        <input type="submit">   
+    </form>
+<img src="https://media.glassdoor.com/l/1e/7e/79/49/kcb-bank.jpg" alt="" width="500px"
+height="500px">
+<img src="data:image/jpeg;base64,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" alt="" width="500px"
+height="300px">
+   
+  <h2>LENDING POLICY:</h2>
+<p>*Legible for the loan if  not listed to Credit Reference Bureau (CRB).</p>
+<p>*Ensure entry of valid Credentials before form submission for appropriate verification.</p>
+<p>*We don't accept solid collateral (check more info on our Terms and Conditions).</p>
+       <h2>LOAN APPLICATION DETAILS:</h2>
+    <form action="sample-page-handler.html"target="blank"method="GET">
+       <p>Name:</p>
+      <input type="text"name="Applicant Name"placeholder="*Applicant's Full Name"autocapitalize="words"required/>
+          </br>
+          
+       <p>ID Number:</p>
+      <input type="text"name="ID Number"placeholder="*ID Number"required/>
+          </br>
+          
+       <p>Date Of Birth (Year-Month-Day):</p>
+      <input type="date"name="D.O.B"placeholder="*Year-Month-Day"min="1963-01-01"required/>
+          </br>
+         
+      <p>Account Number:</p>
+     <input type="number"name="AccNo"placeholder="*Acc Number"required/>
+          </br>
+          
+      <p>Email Address (Optional):</p>
+     <input type="email"name="email"placeholder="*User Email"/>
+          </br>
+      <p>Loan Amount:</p>
+    <select id="amount">
+       <option value="5,000">Ksh.5,000/=</option>
+       <option value="10,000">Ksh.10,000/=</option>
+       <option value="15,000">Ksh.15,000/=</option>
+       <option value="20,000">Ksh.20,000/=</option>
+       <option value="25,000">Ksh.25,000/=</option>
+       <option value="30,000">Ksh.30,000/=</option>
+    </select>
+       </br>
+      <p>Loan Purpose:</p>
+     <select id="purpose">
+        <option value="Education">Education</option>
+        <option value="Business">Business</option>
+        <option value="Medical bills">Medical bills</option>
+        <option value="other">Other</option>
+     </select>
+           </br>
+
+     <p>Telephone Number(primary):</p>
+   <input type="tel"name="primarytel"placeholder="*Tel" minlenghth="10"maxlength="10"required/>
+       </br>
+     <p>Telephone Number(secondary):</p>
+   <input type="tel"name="secondarytel"placeholder="*Tel"minlength="10"maxlength="10"required/>
+       </br>
+     <p>TopUp loan/Refinance:(optional)</p>
+   <input type="number"name="refinance"placeholder="Topup/Refinance"min="1000"max="30,000"/>
+    <input type="submit"/>
+  </form>
+   <h3>Declarations.</h3>
+  <p>Incase of Topup/Refinance Loan,applicant should specify the amount to be cleared.</p>
+  <p>*After submitting your Personal details and Loan application details,we shall verify your details and disburse the loan to your respective Bank account within 1 hour of(Working hours).</p>
+
+   </main>
+  </body>
+<footer>
+   <div class="footer-body">
+    <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Terms and Conditions</a></li>
+       <li><a href="#">Privacy and Policy</a></li>
+  </ul>
+           <br>
+        <br>  <span>
+         <i class="fa fa-twitter" id="my"></i>
+   <i class="fa fa-facebook" id="yy"></i>
+   <i class="fa fa-whatsapp" id="pp"></i>
+   <i class="fa fa-pinterest" id="kk"></i>
+</span>
+     
+   
+  </div>
+
+ <div class="footer-copyright">
+    ©COPYRIGHT 2023//KCB GROUP ORG.ALL RIGHT RESERVED.
+    </div>
+   </footer>
+  </html>
+       
+      
+      
+  
+   
